@@ -1,0 +1,63 @@
+{
+  "name": "woolsue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^3.6.5",
+    "debug": "^4.3.1",
+    "element-ui": "^2.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0",
+    "shelljs": "^0.8.4",
+    "vue": "^2.6.11",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-lazyload": "^1.3.3",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
