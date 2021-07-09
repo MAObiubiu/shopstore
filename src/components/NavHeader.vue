@@ -234,7 +234,7 @@ export default {
     return {
       userName: "admin",
       userPwd: "123456",
-      errorTip: false,
+      errorTip: false, 
       loginModalFlag: false
     };
   },
